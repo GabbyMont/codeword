@@ -22,4 +22,8 @@ class Method_tests < Minitest::Test
 		assert_equal("Page almost found.", code)
 	end
 
+	def test_1292_error
+		code = code_word(1292)
+		assert_equal("Not even close.", code)
+	end
 end
