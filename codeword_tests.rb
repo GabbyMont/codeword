@@ -17,4 +17,9 @@ class Method_tests < Minitest::Test
 		assert_equal("Page not found.", code)
 	end
 
+	def test_402_error
+		code = code_word(402)
+		assert_equal("Page almost found.", code)
+	end
+
 end
