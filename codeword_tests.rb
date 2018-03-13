@@ -16,4 +16,5 @@ class Method_tests < Minitest::Test
 		code = code_word(404)
 		assert_equal("Page not found.", code)
 	end
+
 end
